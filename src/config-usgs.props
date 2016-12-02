@@ -1,0 +1,20 @@
+# comment the following line to post to uicds.
+#debug=true
+
+# UICDS Core Config
+user=admin
+password=adminpassword
+protocol=https
+hostname=caloes.keystone.spotonresponse.com
+
+# use either file OR url
+jsonfile=fieldnotes.json
+#jsonurl=https://bayquakealliance.org/fieldnotes/features.json.php?period=month
+
+# Transform file
+xslt=usgs.xsl
+incidentid=
+createIncident=true
+
+# Temp file for holding ids
+tmpfile=usgs.tmp
